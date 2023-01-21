@@ -1,0 +1,46 @@
+{
+    "worker":[
+        {
+            "names":"Gabriel Wambugu",
+            "identity":"456232",
+            "gender":"Male",
+            "worktype":"Data-entry",
+            "age":"25",
+            "imageURL":"./images/IMG_20221219_181303.jpg"
+
+        },
+        {
+            "names":"John Ochieng",
+            "identity":"864215",
+            "gender":"Male",
+            "worktype":"Yard worker",
+            "age":"31",
+            "imageURL":"./images/images(2).jpg"
+        },
+        {
+            "names":"Christian Muturi",
+            "identity":"74215",
+            "gender":"Male",
+            "worktype":"Cook",
+            "age":"22",
+            "imageURL":"./images/images(1).jpg"
+        },
+        {
+            "names":"Jennifer Chepkemoi",
+            "identity":"56721",
+            "gender":"Female",
+            "worktype":"Data-entry",
+            "age":"27",
+            "imageURL":"./images/jen.jpg"
+        },
+        {
+            "names":"Sara Munyiri",
+            "identity":"456232",
+            "gender":"Female",
+            "worktype":"Data-entry",
+            "age":"35",
+            "imageURL":"./images/sar.jpg"
+            
+        } 
+    ]
+}

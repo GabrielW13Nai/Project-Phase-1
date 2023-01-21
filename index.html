@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prison Reforms System</title>
+    <link><link rel="stylesheet" href="style.css">
+    <script defer src= "./src/index.js"></script>
+</head>
+<body>
+    <section class = "container">
+        <div id = "logo">
+            <img id="logo-page"
+            src="./images/Screenshot (1).png" 
+            alt="Image not found"
+            width="100px"
+            height="50px"
+            >
+        </div>
+        <div id = "title">PRISON REFORM SYSTEMS</div>
+    </section>
+    <section class="btn-container">
+        <div id = "buttons">
+            <button id="home" class="btns">HOME</button>
+            <div class="service-container">
+                <button id="services" class="btns">SERVICES
+                    
+                    <div class="dropdown">
+                            <a href="#" class="btn1">Get started</a>
+                            <a href="#" class="btn2">Find worker profile</a>
+                            <a href="#" class="btn2">Donate</a>
+                    </div>
+            </div>
+       
+        </button>
+        <button id="sign-up" class="btns" onclick="openForm()">SIGN UP</button>
+        </div>
+        <input id="search-for-anything" placeholder="Search for anything" type="text">
+    </section>
+    <section class="Contacts">
+        <label id="about-title">
+            About
+        </label>
+        <label id="about-body">
+            We are a local organisation concerned with sourcing for opportunities 
+            for formerly incarcerated  individuals of society who have not 
+            been afforded any working opportunities. 
+        </label>
+
+        <label id="reg">REGISTER HERE:</label>
+
+        <form id = "registration">
+            <label id="name">Name</label>
+            <input type="text" name="names" placeholder="Names"><br>
+            <label id="identification">National ID</label>
+            <input type="text" name="identity" placeholder="National ID Number"><br>
+            <label id="sex">Gender</label>
+            <select name="genders" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            <label id="work">Work as</label>
+            <select name="worktype" id="work-type">
+        
+                <option value="casual worker">Casual worker</option>
+                <option value="cleaner">Cleaner</option>
+                <option value="cook">Cook</option>
+                <option value="driver">Driver</option>
+                <option value="data-entry">Data entry</option>
+                <option value="gardener">Gardener</option>
+                <option value="librarian">Librarian</option>
+                <option value="yard-worker">Yard worker</option>
+            </select> <br>
+
+            <label id="age">Age</label>
+            <input type="text" name="age" placeholder="Age"><br>
+            <label id="photo">Image URL</label>
+            <input type="text" id="imgadded" placeholder="Place image URL here">
+            <input id="registered" type="submit" value="Submit" onclick="appendRecords()">
+            <button class="btnhide" onclick="btnHide()">Hide</button>
+
+        </form>
+        
+        <label id="contact-title">
+            Contact us
+        </label>
+            <ul id="contact-body" >
+                <li><strong>Get in touch:</strong></li> 
+                <li>Donholm Estate, Hse No. 15,</li>
+                <li>P.O.Box 4155-00200,</li>
+                <li>Phone - +021-273200/</li>
+                <li>Email - <a href="info@prisonreformsystems.com">info@prisonreformsystems.com</a></li>
+                  
+            </ul>
+           
+        </label>
+        <form id = "registration">
+            <label id="name">Name</label>
+            <input type="text" name="names" placeholder="Names"><br>
+            <label id="identification">National ID</label>
+            <input type="text" name="identity" placeholder="National ID Number"><br>
+            <label id="sex">Gender</label>
+
+    </section>
+    <section class = "main-content">
+        <div class = "pic-container">
+            <div class = "pic">
+                <div class="arrange">1/3</div>
+                    <img class="img" src="./images/Prisoners working 2.jpg" alt="Not found">
+                </div>
+                
+            <div class = "pic">
+                <div class="arrange">2/3</div>
+                    <img class="img" src="./images/Prisoners working.jpg" alt="Not found">
+                
+            </div>
+            <div class = "pic">
+                <div class="arrange">3/3</div>
+                    <img class="img" src="./images/img2.jpg" alt="Not found">
+                
+            </div>
+        </div>
+      
+    </section>
+
+
+
+</body>
+</html>
